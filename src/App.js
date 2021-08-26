@@ -1,7 +1,9 @@
+import { ErrorExample } from './useState/ErrorExample';
+
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <ErrorExample />
     </div>
   )
 }
