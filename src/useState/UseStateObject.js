@@ -8,7 +8,6 @@ import { useState } from "react";
 const UseStateObject = () => {
 
     const [person, setPerson] = useState({name: 'Peter', age: 39, message: 'random message'});
-    console.log(person);
 
     const changeMessage = () => {
         setPerson({ ...person, message: 'hello world' }); //bardzo ważna sprawa do zapamiętania, SPREAD OPERATOR !!!!
