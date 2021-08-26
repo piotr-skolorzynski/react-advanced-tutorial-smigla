@@ -1,11 +1,31 @@
-import React from "react";
+import {useState} from "react";
+import { data } from "../data";
 
 const UseStateArray = () => {
+    
+    const [people, setPeople] = useState(data);
+
+    const removeItem = id => {
+        const newPeople = people.filter(person => person.id !== id);
+        setPeople(newPeople);
+    }
+    
     return (
-        <React.Fragment>
-            <h1>UseState Array Example</h1>
-        </React.Fragment>
+        <>
+            {
+                people.map(person => {
+                    const {id, name} = person;
+                    return (
+                        <div key={ id } className="item">
+                            <h4>{ name }</h4>
+                            <button className="btn" onClick={() => removeItem(id)}>remove item</button>
+                        </div>
+                    ) 
+                })
+            }
+            <button className="btn" onClick={() => setPeople([])}>clear items</button>
+        </>
     );
 }
- 
+
 export default UseStateArray;
