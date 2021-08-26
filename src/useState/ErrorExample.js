@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ErrorExample = () => {
+const ErrorExample = () => {
 
     let title = 'random title'
 
@@ -16,6 +16,8 @@ export const ErrorExample = () => {
         </React.Fragment>
     );
 }
+
+export default ErrorExample;
 
 // w czym jest problem ?????
 
