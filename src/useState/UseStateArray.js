@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 import { data } from "../data";
 
 const UseStateArray = () => {
@@ -9,6 +9,14 @@ const UseStateArray = () => {
         const newPeople = people.filter(person => person.id !== id);
         setPeople(newPeople);
     }
+
+    //przykład z wykorzystaniem functional update
+    // const removeItem = id => {
+    //     setPeople( oldPeople => {
+    //         const newPeople = oldPeople.filter(person => person.id !== id);
+    //         return newPeople;
+    //     })
+    // }
     
     return (
         <>
