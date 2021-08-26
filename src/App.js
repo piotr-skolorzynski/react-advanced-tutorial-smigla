@@ -1,7 +1,9 @@
 // import ErrorExample from './useState/ErrorExample';
 // import UseStateBasics from "./useState/UseStateBasics";
+// import UseStateArray from "./useState/UseStateArray";
 
-import UseStateArray from "./useState/UseStateArray";
+import UseStateObject from "./useState/UseStateObject";
+
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
     <div className="container">
       {/* <ErrorExample /> */}
       {/* <UseStateBasics /> */}
-      <UseStateArray />
+      {/* <UseStateArray /> */}
+      <UseStateObject />
     </div>
   )
 }
