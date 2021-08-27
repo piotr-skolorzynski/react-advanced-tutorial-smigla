@@ -2,10 +2,8 @@
 // import UseStateBasics from "./useState/UseStateBasics";
 // import UseStateArray from "./useState/UseStateArray";
 // import UseStateObject from "./useState/UseStateObject";
-
-import UseStateCounter from "./useState/UseStateCounter";
-
-
+// import UseStateCounter from "./useState/UseStateCounter";
+import UseEffectBasics from './useEffect/UseEffectBasics';
 
 
 function App() {
@@ -15,7 +13,8 @@ function App() {
       {/* <UseStateBasics /> */}
       {/* <UseStateArray /> */}
       {/* <UseStateObject /> */}
-      <UseStateCounter />
+      {/* <UseStateCounter /> */}
+      <UseEffectBasics />
     </div>
   )
 }
