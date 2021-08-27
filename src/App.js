@@ -6,7 +6,8 @@
 // import UseEffectBasics from './useEffect/UseEffectBasics';
 // import UseEffectCleanup from './useEffect/UseEffectCleanup';
 // import UseEffectFetch from './useEffect/UseEffectFetch';
-import MultipleReturns from './conditionalRendering/MultipleReturns';
+// import MultipleReturns from './conditionalRendering/MultipleReturns';
+import ShortCircuit from "./conditionalRendering/ShortCircuit";
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* <UseEffectBasics /> */}
       {/* <UseEffectCleanup /> */}
       {/* <UseEffectFetch /> */}
-      <MultipleReturns />
+      {/* <MultipleReturns /> */}
+      <ShortCircuit />
     </div>
   )
 }
