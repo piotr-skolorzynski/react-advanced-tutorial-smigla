@@ -7,7 +7,9 @@
 // import UseEffectCleanup from './useEffect/UseEffectCleanup';
 // import UseEffectFetch from './useEffect/UseEffectFetch';
 // import MultipleReturns from './conditionalRendering/MultipleReturns';
-import ShortCircuit from "./conditionalRendering/ShortCircuit";
+// import ShortCircuit from "./conditionalRendering/ShortCircuit";
+
+import ShowHide from "./conditionalRendering/ShowHide";
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
       {/* <UseEffectCleanup /> */}
       {/* <UseEffectFetch /> */}
       {/* <MultipleReturns /> */}
-      <ShortCircuit />
+      {/* <ShortCircuit /> */}
+      <ShowHide />
     </div>
   )
 }
