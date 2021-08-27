@@ -5,7 +5,8 @@
 // import UseStateCounter from "./useState/UseStateCounter";
 // import UseEffectBasics from './useEffect/UseEffectBasics';
 // import UseEffectCleanup from './useEffect/UseEffectCleanup';
-import UseEffectFetch from './useEffect/UseEffectFetch';
+// import UseEffectFetch from './useEffect/UseEffectFetch';
+import MultipleReturns from './conditionalRendering/MultipleReturns';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <UseStateCounter /> */}
       {/* <UseEffectBasics /> */}
       {/* <UseEffectCleanup /> */}
-      <UseEffectFetch />
+      {/* <UseEffectFetch /> */}
+      <MultipleReturns />
     </div>
   )
 }
