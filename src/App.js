@@ -4,7 +4,8 @@
 // import UseStateObject from "./useState/UseStateObject";
 // import UseStateCounter from "./useState/UseStateCounter";
 // import UseEffectBasics from './useEffect/UseEffectBasics';
-import UseEffectCleanup from './useEffect/UseEffectCleanup';
+// import UseEffectCleanup from './useEffect/UseEffectCleanup';
+import UseEffectFetch from './useEffect/UseEffectFetch';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <UseStateObject /> */}
       {/* <UseStateCounter /> */}
       {/* <UseEffectBasics /> */}
-      <UseEffectCleanup />
+      {/* <UseEffectCleanup /> */}
+      <UseEffectFetch />
     </div>
   )
 }
