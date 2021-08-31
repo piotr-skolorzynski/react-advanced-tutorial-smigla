@@ -8,9 +8,9 @@
 // import UseEffectFetch from './useEffect/UseEffectFetch';
 // import MultipleReturns from './conditionalRendering/MultipleReturns';
 // import ShortCircuit from "./conditionalRendering/ShortCircuit";
+// import ShowHide from "./conditionalRendering/ShowHide";
 
-import ShowHide from "./conditionalRendering/ShowHide";
-
+import ContolledInputs from "./forms/ContolledInputs";
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
       {/* <UseEffectFetch /> */}
       {/* <MultipleReturns /> */}
       {/* <ShortCircuit /> */}
-      <ShowHide />
+      {/* <ShowHide /> */}
+      <ContolledInputs />
     </div>
   )
 }
