@@ -9,8 +9,10 @@
 // import MultipleReturns from './conditionalRendering/MultipleReturns';
 // import ShortCircuit from "./conditionalRendering/ShortCircuit";
 // import ShowHide from "./conditionalRendering/ShowHide";
+// import ContolledInputs from "./forms/ContolledInputs";
 
-import ContolledInputs from "./forms/ContolledInputs";
+import MultipleInputs from "./forms/MultipleInputs";
+
 
 function App() {
   return (
@@ -26,7 +28,8 @@ function App() {
       {/* <MultipleReturns /> */}
       {/* <ShortCircuit /> */}
       {/* <ShowHide /> */}
-      <ContolledInputs />
+      {/* <ContolledInputs /> */}
+      <MultipleInputs />
     </div>
   )
 }
