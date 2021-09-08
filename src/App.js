@@ -10,9 +10,9 @@
 // import ShortCircuit from "./conditionalRendering/ShortCircuit";
 // import ShowHide from "./conditionalRendering/ShowHide";
 // import ContolledInputs from "./forms/ContolledInputs";
+// import MultipleInputs from "./forms/MultipleInputs";
 
-import MultipleInputs from "./forms/MultipleInputs";
-
+import UseRefBasics from "./useRef/UseRef-basics";
 
 function App() {
   return (
@@ -29,7 +29,8 @@ function App() {
       {/* <ShortCircuit /> */}
       {/* <ShowHide /> */}
       {/* <ContolledInputs /> */}
-      <MultipleInputs />
+      {/* <MultipleInputs /> */}
+      <UseRefBasics />
     </div>
   )
 }
