@@ -11,8 +11,8 @@
 // import ShowHide from "./conditionalRendering/ShowHide";
 // import ContolledInputs from "./forms/ContolledInputs";
 // import MultipleInputs from "./forms/MultipleInputs";
-
-import UseRefBasics from "./useRef/UseRef-basics";
+// import UseRefBasics from "./useRef/UseRef-basics";
+import UseReducer from './useReducer';
 
 function App() {
   return (
@@ -30,7 +30,8 @@ function App() {
       {/* <ShowHide /> */}
       {/* <ContolledInputs /> */}
       {/* <MultipleInputs /> */}
-      <UseRefBasics />
+      {/* <UseRefBasics /> */}
+      <UseReducer />
     </div>
   )
 }
