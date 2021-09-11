@@ -16,7 +16,7 @@ const reducer = (state, action) => {
             }
     }
 
-    if(action.type === 'NO_VALUE') {
+    if (action.type === 'NO_VALUE') {
         return {
             ...state,
             isModalOpen: true,
@@ -24,11 +24,21 @@ const reducer = (state, action) => {
         }
     }
 
-    if(action.type === 'CLOSE_MODAL') {
+    if (action.type === 'CLOSE_MODAL') {
         return {
             ...state,
             isModalOpen: false,
             modalContent: ''
+        }
+    }
+
+    if (action.type === 'REMOVE_ITEM') {
+        const newPeople = state.people.filter(person => person.id !== action.payload);
+        return {
+            ...state,
+            people: newPeople,
+            isModalOpen: true,
+            modalContent: 'item removed'
         }
     }
 
@@ -75,8 +85,9 @@ const Index = () => {
             </form>
             {state.people.map(person => {
                 return (
-                    <div key={person.id}>
+                    <div key={person.id} className="item">
                         <h4>{person.name}</h4>
+                        <button onClick={() => dispatch({type:'REMOVE_ITEM', payload: person.id})}>remove</button>
                     </div>
                 );
             })}

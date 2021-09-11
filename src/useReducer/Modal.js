@@ -5,7 +5,7 @@ const Modal = ({modalContent, closeModal}) => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             closeModal();
-            return clearTimeout(timeout)
+            return clearTimeout(timeout);
         }, 3000);
     });
     
