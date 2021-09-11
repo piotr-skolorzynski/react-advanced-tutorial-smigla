@@ -12,7 +12,10 @@
 // import ContolledInputs from "./forms/ContolledInputs";
 // import MultipleInputs from "./forms/MultipleInputs";
 // import UseRefBasics from "./useRef/UseRef-basics";
-import UseReducer from './useReducer';
+// import UseReducer from './useReducer';
+
+import PropDrilling from "./prop-drilling/prop-drilling"
+
 
 function App() {
   return (
@@ -31,7 +34,8 @@ function App() {
       {/* <ContolledInputs /> */}
       {/* <MultipleInputs /> */}
       {/* <UseRefBasics /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <PropDrilling />
     </div>
   )
 }
