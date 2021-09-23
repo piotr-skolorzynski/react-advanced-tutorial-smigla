@@ -15,8 +15,8 @@
 // import UseReducer from './useReducer';
 // import PropDrilling from "./prop-drilling/prop-drilling"
 // import ContextAPI from "./useContext/context-api"
-
-import Example from "./custom-hooks/fetch-example";
+// import Example from "./custom-hooks/fetch-example";
+import Index from './prop-types/index';
 
 function App() {
   return (
@@ -38,7 +38,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <PropDrilling /> */}
       {/* <ContextAPI /> */}
-      <Example />
+      {/* <Example /> */}
+      <Index />
     </div>
   )
 }

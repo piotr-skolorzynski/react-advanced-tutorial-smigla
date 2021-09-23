@@ -1,6 +1,6 @@
 import { useFetch } from "./useFetch";
 
-const url = 'https://course-api.netlify.app/api/javascript-store-products';
+const url = 'https://course-api.netlify.app/api/react-prop-types-example';
 
 const Example = () => {
     const { loading, products } = useFetch(url);
