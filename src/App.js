@@ -14,10 +14,9 @@
 // import UseRefBasics from "./useRef/UseRef-basics";
 // import UseReducer from './useReducer';
 // import PropDrilling from "./prop-drilling/prop-drilling"
+// import ContextAPI from "./useContext/context-api"
 
-import ContextAPI from "./useContext/context-api"
-
-
+import Example from "./custom-hooks/fetch-example";
 
 function App() {
   return (
@@ -38,9 +37,10 @@ function App() {
       {/* <UseRefBasics /> */}
       {/* <UseReducer /> */}
       {/* <PropDrilling /> */}
-      <ContextAPI />
+      {/* <ContextAPI /> */}
+      <Example />
     </div>
   )
 }
 
-export default App
+export default App;
