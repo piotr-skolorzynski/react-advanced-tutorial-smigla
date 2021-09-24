@@ -16,7 +16,9 @@
 // import PropDrilling from "./prop-drilling/prop-drilling"
 // import ContextAPI from "./useContext/context-api"
 // import Example from "./custom-hooks/fetch-example";
-import Index from './prop-types/index';
+// import Index from './prop-types/index';
+
+import ReacRouterSetup from "./react-router";
 
 function App() {
   return (
@@ -39,7 +41,8 @@ function App() {
       {/* <PropDrilling /> */}
       {/* <ContextAPI /> */}
       {/* <Example /> */}
-      <Index />
+      {/* <Index /> */}
+      <ReacRouterSetup />
     </div>
   )
 }
